@@ -1,2 +1,3 @@
 #!/bin/bash
-DISPLAY=:0 unity --replace
+dconf reset -f /org/compiz/ 
+unity --reset-icons &disown
